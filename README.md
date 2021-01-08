@@ -1,34 +1,27 @@
-# DD Image
+# AI Tic Tac Toe
 
-DD Image is a c++ application for search and delete duplicate images.
-DD Image explore the paths from the parent folder and his childs folders.
-Read all images and search for duplicates at pixel level.
-Remove the duplicate images.
-Explore the code, you can use it for other tasks like compare images without remove them.
-## Supported formats(you can include more in allowed_types.txt file):
+A CLI Tic-Tac-Toe game build with a Min-Max Algorithm.
 
-* [jpg]
-* [png]
-
-## Requirements
-
-* OpenCV c++ Version >= 3.3
 
 ## Installation
 
 ```bash
-mkdir build
-cd buid
-cmake ..
+cmake .
 make
 ```
 ## Usage
 
+Two human players:
 ```bash
-./DDImage /path_to_folder_whit_images path_to_allowed_types.txt
+./Tic-Tac-Toe 0
+```
+Human players vs AI:  (memfile.txt is the trained memory)
+```bash
+./Tic-Tac-Toe 1 memfile.txt
+```
+Training
+```bash
+./Tic-Tac-Toe 2 max_training_matchs memfile_to_save.txt
+example:	./Tic-Tac-Toe 2 20000 memory.txt
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
