@@ -15,7 +15,7 @@ Two human players:
 ```bash
 ./Tic-Tac-Toe 0
 ```
-Human players vs AI:  (memfile.txt is the trained memory)
+Human player vs AI:  (memfile.txt is the trained memory)
 ```bash
 ./Tic-Tac-Toe 1 memfile.txt
 ```
