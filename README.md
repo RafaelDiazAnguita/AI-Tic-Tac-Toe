@@ -1,6 +1,6 @@
 # AI Tic Tac Toe
 
-A CLI Tic-Tac-Toe game build with a Min-Max Algorithm.
+A CLI Tic-Tac-Toe game built with a Min-Max Algorithm.
 
 
 ## Installation
